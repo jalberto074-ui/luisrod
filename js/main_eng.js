@@ -133,7 +133,7 @@ function initApp() {
         const mainHeader = document.querySelector('.main-header');
 
         let roundedIndex = Math.round(virtualIndex);
-        if (currentProgress < 0.05) roundedIndex = 0; // Force intro state at top
+        if (currentProgress < 0.12) roundedIndex = 0; // Stickier Main Menu at top
 
         if (roundedIndex === contactIndex) {
             contactSection.classList.add('visible');
