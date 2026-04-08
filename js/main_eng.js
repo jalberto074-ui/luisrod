@@ -25,12 +25,12 @@ function initApp() {
 
     const labels = [
         "",
-        "Data Architecture & Analytics Governance",
+        "Data Analysis & Analytics Governance",
         "Database Engineering & SQL Optimization",
-        "Performance Marketing & Paid Media Strategy",
+        "Paid Media & Performance Marketing",
         "Marketing Automation & API Orchestration",
-        "AI-Driven Personalization & LLM Ecosystems",
-        "Visualization & Business Intelligence Systems"
+        "LLM Ecosystems & AI Personalization",
+        "BI Systems & Visualization"
     ];
 
     const scrollContainer = document.getElementById('scroll-container');
@@ -132,7 +132,8 @@ function initApp() {
         const contactSection = document.querySelector('.contact-section');
         const mainHeader = document.querySelector('.main-header');
 
-        const roundedIndex = Math.round(virtualIndex);
+        let roundedIndex = Math.round(virtualIndex);
+        if (currentProgress < 0.05) roundedIndex = 0; // Force intro state at top
 
         if (roundedIndex === contactIndex) {
             contactSection.classList.add('visible');

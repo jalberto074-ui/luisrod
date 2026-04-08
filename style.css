@@ -774,14 +774,14 @@ body {
 }
 
 /* Specific Label Hints */
-.side-nav-tick[data-index="0"].active::after { content: 'Intro'; }
-.side-nav-tick[data-index="1"].active::after { content: 'Governance'; }
+.side-nav-tick[data-index="0"].active::after { content: 'Main Menu'; }
+.side-nav-tick[data-index="1"].active::after { content: 'Data Analyst'; }
 .side-nav-tick[data-index="2"].active::after { content: 'SQL Eng'; }
-.side-nav-tick[data-index="3"].active::after { content: 'Performance'; }
+.side-nav-tick[data-index="3"].active::after { content: 'Paid Media'; }
 .side-nav-tick[data-index="4"].active::after { content: 'Automation'; }
-.side-nav-tick[data-index="5"].active::after { content: 'AI Ecosystems'; }
-.side-nav-tick[data-index="6"].active::after { content: 'BI Systems'; }
-.side-nav-tick[data-index="7"].active::after { content: 'Hire Luis'; }
+.side-nav-tick[data-index="5"].active::after { content: 'LLM & AI'; }
+.side-nav-tick[data-index="6"].active::after { content: 'BI Specialist'; }
+.side-nav-tick[data-index="7"].active::after { content: 'Contact'; }
 
 @media (max-width: 768px) {
     .side-nav {
