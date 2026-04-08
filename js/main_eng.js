@@ -57,6 +57,16 @@ function initApp() {
             if (opacity < 0) opacity = 0;
             introTitle.style.opacity = opacity;
         }
+
+        const bgExperience = document.querySelector('.bg-experience-text');
+        if (bgExperience) {
+            let bgOpacity = 0.15 - (p * 5); // Fades out completely early in the scroll
+            if (bgOpacity < 0) bgOpacity = 0;
+            bgExperience.style.opacity = bgOpacity;
+            
+            // Subtle parallax depth shift
+            bgExperience.style.transform = `translate(-50%, calc(-50% - ${p * 150}px))`;
+        }
     }
 
     if (scrollContainer) {
