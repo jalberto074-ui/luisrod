@@ -27,9 +27,9 @@ function initApp() {
         "",
         "Data Architecture & Analytics Governance",
         "Database Engineering & SQL Optimization",
-        "AI-Driven Personalization & LLM Ecosystems",
-        "Marketing Automation & API Orchestration",
         "Performance Marketing & Paid Media Strategy",
+        "Marketing Automation & API Orchestration",
+        "AI-Driven Personalization & LLM Ecosystems",
         "Visualization & Business Intelligence Systems"
     ];
 
