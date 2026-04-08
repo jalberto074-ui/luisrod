@@ -154,7 +154,7 @@ body {
 .logo {
     font-weight: 800;
     font-size: 0.95rem; /* Reduced to fit long text */
-    max-width: 500px; /* Increased to fit 'Specialist' on one line */
+    max-width: 600px; /* Increased further to fit 'Specialist' on line 1 */
     line-height: 1.3;
     letter-spacing: 0.1em;
     color: var(--text-primary);

@@ -145,9 +145,9 @@ function initApp() {
             if (mainHeader) mainHeader.style.opacity = 1;
             contactSection.style.pointerEvents = 'none';
 
-            if (roundedIndex > 0 && roundedIndex < 7) {
+            if (roundedIndex >= 0 && roundedIndex < 7) {
                 const diff = Math.abs(virtualIndex - roundedIndex);
-                let opacity = 1 - (diff * 2.5);
+                let opacity = (roundedIndex === 0) ? 0 : 1 - (diff * 2.5);
                 if (opacity < 0) opacity = 0;
                 uiManager.updateLabel(labels[roundedIndex], opacity, roundedIndex);
             } else {
