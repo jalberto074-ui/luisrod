@@ -1,5 +1,5 @@
 export const skillData = {
-    "Data Architecture & Analytics Governance": {
+    "Data Analysis & Analytics Governance": {
         description: "Strategic lead in digital measurement frameworks and conversion data integrity for multi-million dollar ecosystems.",
         impact: [
             { label: "Reporting Accuracy", value: "+30%" },
@@ -28,20 +28,17 @@ export const skillData = {
             "Implementation of ETL processes for financial revenue extraction and multi-source synchronization."
         ]
     },
-    "AI-Driven Personalization & LLM Ecosystems": {
-        description: "Pioneer in deploying autonomous AI agents to automate lead qualification and operations.",
+    "Paid Media & Performance Marketing": {
+        description: "Senior leadership of PPC and Paid Media teams managing high-stakes advertising budgets.",
         impact: [
-            { label: "License Savings", value: "$500+/mo" },
-            { label: "Availability", value: "24/7" }
+            { label: "Max Budget", value: "$23M/mo" },
+            { label: "Income Growth", value: "$1k→$40k" }
         ],
         bullets: [
-            "Deployed proprietary AI virtual assistants using JS/GTM and LLM integration via n8n.",
-            "Replaced third-party qualification tools (like TalkFurther) with proprietary AI solutions.",
-            "Integrated GPT-4 agents through Python and Zapier for intelligent customer interaction.",
-            "Automated lead injection into CRM systems, reducing manual qualification effort by 90%."
-        ],
-        images: [
-            { url: "assets/portfolio/chat-widget-1.png", caption: "AI Assistant: Custom LLM integration for 24/7 lead qualification." }
+            "Directed PPC teams of 5-10 professionals, scaling ad spend in strict alignment with revenue growth.",
+            "Strategic management of campaigns across Shopping, Search, PMax, and YouTube channels.",
+            "Achieved top SEO rankings for luxury real estate businesses with properties up to $6M.",
+            "Promoted from SEO Specialist to Marketing Director in just 3 months due to high-impact results."
         ]
     },
     "Marketing Automation & API Orchestration": {
@@ -60,20 +57,23 @@ export const skillData = {
             { url: "assets/portfolio/n8n-alert-flow.png", caption: "n8n Workflow: Real-time alerting and API synchronization." }
         ]
     },
-    "Performance Marketing & Paid Media Strategy": {
-        description: "Senior leadership of PPC and Paid Media teams managing high-stakes advertising budgets.",
+    "LLM Ecosystems & AI Personalization": {
+        description: "Pioneer in deploying autonomous AI agents to automate lead qualification and operations.",
         impact: [
-            { label: "Max Budget", value: "$23M/mo" },
-            { label: "Income Growth", value: "$1k→$40k" }
+            { label: "License Savings", value: "$500+/mo" },
+            { label: "Availability", value: "24/7" }
         ],
         bullets: [
-            "Directed PPC teams of 5-10 professionals, scaling ad spend in strict alignment with revenue growth.",
-            "Strategic management of campaigns across Shopping, Search, PMax, and YouTube channels.",
-            "Achieved top SEO rankings for luxury real estate businesses with properties up to $6M.",
-            "Promoted from SEO Specialist to Marketing Director in just 3 months due to high-impact results."
+            "Deployed proprietary AI virtual assistants using JS/GTM and LLM integration via n8n.",
+            "Replaced third-party qualification tools (like TalkFurther) with proprietary AI solutions.",
+            "Integrated GPT-4 agents through Python and Zapier for intelligent customer interaction.",
+            "Automated lead injection into CRM systems, reducing manual qualification effort by 90%."
+        ],
+        images: [
+            { url: "assets/portfolio/chat-widget-1.png", caption: "AI Assistant: Custom LLM integration for 24/7 lead qualification." }
         ]
     },
-    "Visualization & Business Intelligence Systems": {
+    "BI Systems & Visualization": {
         description: "Creation of advanced data storytelling tools for strategic decision making and forecasting.",
         impact: [
             { label: "ROAS Visibility", value: "Real-time" },
