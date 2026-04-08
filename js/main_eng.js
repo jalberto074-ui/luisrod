@@ -25,12 +25,12 @@ function initApp() {
 
     const labels = [
         "",
-        "Data Analysis",
-        "SQL Architecture & Management",
-        "Tracking Strategy & Automation",
-        "Data Pipeline Engineering",
-        "Infrastructure & Technical Support",
-        "Visualization & Business Intelligence"
+        "Data Architecture & Analytics Governance",
+        "Database Engineering & SQL Optimization",
+        "AI-Driven Personalization & LLM Ecosystems",
+        "Marketing Automation & API Orchestration",
+        "Performance Marketing & Paid Media Strategy",
+        "Visualization & Business Intelligence Systems"
     ];
 
     const scrollContainer = document.getElementById('scroll-container');

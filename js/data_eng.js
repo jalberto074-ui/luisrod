@@ -1,83 +1,89 @@
 export const skillData = {
-    "Data Analysis": {
-        description: "Specialist in data ecosystem sanitation and conversion optimization through forensic tracking.",
+    "Data Architecture & Analytics Governance": {
+        description: "Strategic lead in digital measurement frameworks and conversion data integrity for multi-million dollar ecosystems.",
         impact: [
-            { label: "Revenue ID", value: "$2.57M" },
-            { label: "Data Quality", value: "99.9%" }
+            { label: "Reporting Accuracy", value: "+30%" },
+            { label: "Teams Led", value: "10+ Pros" }
         ],
         bullets: [
-            "Deep Google Tag Manager audit for Wellness Center (USA), eliminating duplicate triggers.",
-            "Complete reconstruction of conversion funnels in GA4 for real ROAS visibility.",
-            "Identification of data pipeline anomalies causing revenue under-reporting.",
-            "Technical documentation of tracking architecture for multi-city scalability."
+            "Architected cross-platform tracking frameworks using GA4, GTM, and GSC for high-scale environments.",
+            "Engineered forensic tracking solutions capturing full-funnel visibility across paid media and call-based interactions.",
+            "Led continuous improvements in data governance, ensuring scalability and compliance for international brands.",
+            "Reconstructed conversion funnels to provide real ROAS visibility and eliminate data gaps."
         ],
         images: [
-            { url: "assets/portfolio/ga4-dashboard-metrics.png", caption: "GA4: Monitoring sanitized conversion events (Forms and CTM)." }
+            { url: "assets/portfolio/ga4-dashboard-metrics.png", caption: "Advanced Tracking: Forensic conversion monitoring for complex funnels." }
         ]
     },
-    "SQL Architecture & Management": {
-        description: "Design of relational data infrastructures optimized for massive transaction analysis.",
+    "Database Engineering & SQL Optimization": {
+        description: "Design and management of scalable data infrastructures for high-volume transaction analysis.",
         impact: [
             { label: "Transactions", value: "952K+" },
             { label: "Query Speed", value: "300%" }
         ],
         bullets: [
-            "Star schema modeling (Fact/Dimension) to facilitate complex BI reporting.",
-            "SQL query optimization in AWS Aurora for processing 5-year histories.",
-            "Sanitation of logic in financial revenue extraction queries.",
-            "Database administration for platforms with more than 25 active clients."
+            "Designed and managed complex databases to support efficient data operations using PostgreSQL and BigQuery.",
+            "Optimized SQL query performance in AWS environments for processing 5-year historical datasets.",
+            "Star schema modeling (Fact/Dimension) to facilitate complex BI reporting and executive decision making.",
+            "Implementation of ETL processes for financial revenue extraction and multi-source synchronization."
         ]
     },
-    "Tracking Strategy & Automation": {
-        description: "Orchestration of systems connecting marketing, sales, and operations in real-time.",
+    "AI-Driven Personalization & LLM Ecosystems": {
+        description: "Pioneer in deploying autonomous AI agents to automate lead qualification and operations.",
+        impact: [
+            { label: "License Savings", value: "$500+/mo" },
+            { label: "Availability", value: "24/7" }
+        ],
+        bullets: [
+            "Deployed proprietary AI virtual assistants using JS/GTM and LLM integration via n8n.",
+            "Replaced third-party qualification tools (like TalkFurther) with proprietary AI solutions.",
+            "Integrated GPT-4 agents through Python and Zapier for intelligent customer interaction.",
+            "Automated lead injection into CRM systems, reducing manual qualification effort by 90%."
+        ],
+        images: [
+            { url: "assets/portfolio/chat-widget-1.png", caption: "AI Assistant: Custom LLM integration for 24/7 lead qualification." }
+        ]
+    },
+    "Marketing Automation & API Orchestration": {
+        description: "Orchestration of complex middleware connecting marketing, sales, and attribution platforms.",
         impact: [
             { label: "Report Cycle", value: "30→1 Day" },
-            { label: "KPI Alerts", value: "Real-time" }
+            { label: "Lead Recovery", value: "High" }
         ],
         bullets: [
-            "CallTrackingMetrics (CTM) integration with Slack and GA4 via n8n webhooks.",
-            "Google Ads alert automation (via OAuth2) for budget anomaly detection.",
-            "Development of technical SOPs for mass deployment of GTM containers.",
-            "CRM -> Spreadsheets -> Dashboards synchronization without manual intervention."
+            "Built synchronization middleware to connect LiveChat with attribution systems, recovering lost leads.",
+            "Integrated CallTrackingMetrics (CTM) with Slack and GA4 for real-time KPI alerting.",
+            "Orchestrated cross-platform automation ecosystems using n8n and REST API integrations.",
+            "Developed robust UTM pipelines to enable seamless tracking across diverse paid media channels."
         ],
         images: [
-            { url: "assets/portfolio/n8n-alert-flow.png", caption: "n8n Workflow: Smart KPI alert automation for Google Ads." },
-            { url: "assets/portfolio/n8n-ctm-integration.png", caption: "n8n Workflow: LIVE integration of Call Tracking with the Slack ecosystem." }
+            { url: "assets/portfolio/n8n-alert-flow.png", caption: "n8n Workflow: Real-time alerting and API synchronization." }
         ]
     },
-    "Data Pipeline Engineering": {
-        description: "Building robust infrastructures for the flow and processing of large data volumes.",
-        bullets: [
-            "Development of custom scripts in Python and JavaScript for data extraction.",
-            "Integrations via REST API and Webhooks for real-time synchronization.",
-            "Maintenance and monitoring of critical ETL processes."
-        ]
-    },
-    "Infrastructure & Technical Support": {
-        description: "Guarantee of high availability and security in cloud automation environments.",
-        bullets: [
-            "Self-hosted n8n server administration with automatic backup management.",
-            "Implementation of security protocols for API key and OAuth2 handling.",
-            "Resolution of infrastructure conflicts in complex REST API integrations.",
-            "Proactive stability monitoring of cloud tracking services."
-        ]
-    },
-    "Visualization & Business Intelligence": {
-        description: "Fusion of artificial intelligence and data visualization for cost optimization.",
+    "Performance Marketing & Paid Media Strategy": {
+        description: "Senior leadership of PPC and Paid Media teams managing high-stakes advertising budgets.",
         impact: [
-            { label: "Software Saving", value: "$500/mo" },
-            { label: "Leads Processed", value: "24/7" }
+            { label: "Max Budget", value: "$23M/mo" },
+            { label: "Income Growth", value: "$1k→$40k" }
         ],
         bullets: [
-            "AI Chat Widget development (Custom JS/n8n) for lead qualification without human intervention.",
-            "Replacement of costly tools (TalkFurther) with proprietary solutions integrated via GTM.",
-            "Creation of interactive data storytelling focused on customer retention metrics.",
-            "Corporate Dashboards in Looker Studio with ROAS visualization by channel."
+            "Directed PPC teams of 5-10 professionals, scaling ad spend in strict alignment with revenue growth.",
+            "Strategic management of campaigns across Shopping, Search, PMax, and YouTube channels.",
+            "Achieved top SEO rankings for luxury real estate businesses with properties up to $6M.",
+            "Promoted from SEO Specialist to Marketing Director in just 3 months due to high-impact results."
+        ]
+    },
+    "Visualization & Business Intelligence Systems": {
+        description: "Creation of advanced data storytelling tools for strategic decision making and forecasting.",
+        impact: [
+            { label: "ROAS Visibility", value: "Real-time" },
+            { label: "Platforms", value: "Looker/PBI" }
         ],
-        images: [
-            { url: "assets/portfolio/chat-widget-1.png", caption: "AI Virtual Assistant: User interface implemented directly on the client's site." },
-            { url: "assets/portfolio/chat-widget-2.png", caption: "Lead Qualification: Conversation flow capturing valuable data before reaching the CRM." },
-            { url: "assets/portfolio/chat-widget-3.png", caption: "Backend Logic: Chat integration with n8n for immediate lead injection." }
+        bullets: [
+            "Developed automated dashboards in Looker Studio and Power BI to provide executive-level insights.",
+            "Produced accurate forecasting reports to anticipate future performance trends and guide planning.",
+            "Built real-time performance monitoring systems comparing data against business goals in Google Sheets.",
+            "Translated complex datasets into actionable recommendations for C-suite stakeholders."
         ]
     }
 };
