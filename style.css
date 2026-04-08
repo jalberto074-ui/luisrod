@@ -707,8 +707,8 @@ body {
     transform: translate(-50%, -50%);
     font-size: 15vw;
     font-weight: 900;
-    color: #c5a059; /* Matte Gold */
-    opacity: 0.05;
+    color: #ffd700; /* Richer Gold */
+    opacity: 0.15;
     z-index: 1;
     pointer-events: none;
     white-space: nowrap;

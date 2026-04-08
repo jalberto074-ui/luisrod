@@ -104,7 +104,7 @@ function initApp() {
 
         // Camera always centered — icons stay fixed in the middle
         sceneSetup.camera.position.x = 0;
-        sceneSetup.camera.position.y = 0;
+        sceneSetup.camera.position.y = 45; // Increased Y for lower sphere appearance
 
 
         // --- 2. Particle Logic ---
