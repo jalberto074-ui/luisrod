@@ -48,6 +48,9 @@ export class UIManager {
         this.mobileContactBtn = document.getElementById('mobile-contact-btn');
         this.contactPopup = document.getElementById('contact-popup');
 
+        // Sidebar Nav
+        this.sideNavTicks = document.querySelectorAll('.side-nav-tick');
+
         this.setupEvents();
     }
 
@@ -118,14 +121,36 @@ export class UIManager {
 
         window.addEventListener('click', handleInteraction);
         window.addEventListener('touchend', handleInteraction);
+
+        // Sidebar clicks
+        this.sideNavTicks.forEach(tick => {
+            tick.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const index = parseInt(tick.dataset.index);
+                const scrollContainer = document.getElementById('scroll-container');
+                if (scrollContainer) {
+                    const targetY = index * scrollContainer.clientHeight;
+                    scrollContainer.scrollTo({ top: targetY, behavior: 'smooth' });
+                }
+            });
+        });
     }
 
-    updateLabel(label, opacity) {
+    updateLabel(label, opacity, activeIndex = null) {
         if (this.currentLabel !== label) {
             this.labelElement.textContent = label;
             this.currentLabel = label;
         }
         this.labelContainer.style.opacity = opacity;
+        
+        // Update Sidebar Ticks
+        if (activeIndex !== null) {
+            this.sideNavTicks.forEach((tick, idx) => {
+                if (idx === activeIndex) tick.classList.add('active');
+                else tick.classList.remove('active');
+            });
+        }
+
         if (opacity < 0.5) {
             this.hideHint();
         } else {

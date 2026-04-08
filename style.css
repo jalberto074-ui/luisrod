@@ -153,8 +153,10 @@ body {
 
 .logo {
     font-weight: 800;
-    font-size: 1.5rem;
-    letter-spacing: 0.2em;
+    font-size: 1.1rem;
+    max-width: 400px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
     color: var(--text-primary);
     text-shadow: 0 0 20px rgba(102, 252, 241, 0.3);
 }
@@ -693,5 +695,107 @@ body {
     #click-hint {
         font-size: 0.85rem; /* Increased for better visibility */
         margin-bottom: 0.4rem; /* Increased spacing */
+    }
+}
+
+/* --- Added Senior Overhaul Styles --- */
+
+.bg-experience-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15vw;
+    font-weight: 900;
+    color: #c5a059; /* Matte Gold */
+    opacity: 0.05;
+    z-index: 1;
+    pointer-events: none;
+    white-space: nowrap;
+    letter-spacing: -0.05em;
+    user-select: none;
+    font-family: var(--font-main);
+}
+
+.side-nav {
+    position: fixed;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    z-index: 50;
+    pointer-events: auto;
+}
+
+.side-nav-tick {
+    width: 20px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.side-nav-tick:hover {
+    background: rgba(255, 255, 255, 0.8);
+    width: 30px;
+}
+
+.side-nav-tick.active {
+    background: var(--accent-color);
+    width: 40px;
+    box-shadow: 0 0 15px var(--accent-color);
+}
+
+/* Optional: Icon indicator hint could be added via :after if needed */
+
+.side-nav-tick::after {
+    content: '';
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.7rem;
+    color: var(--accent-color);
+    letter-spacing: 0.1em;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.side-nav-tick.active::after {
+    opacity: 1;
+}
+
+/* Specific Label Hints */
+.side-nav-tick[data-index="0"].active::after { content: 'Intro'; }
+.side-nav-tick[data-index="1"].active::after { content: 'Governance'; }
+.side-nav-tick[data-index="2"].active::after { content: 'SQL Eng'; }
+.side-nav-tick[data-index="3"].active::after { content: 'Performance'; }
+.side-nav-tick[data-index="4"].active::after { content: 'Automation'; }
+.side-nav-tick[data-index="5"].active::after { content: 'AI Ecosystems'; }
+.side-nav-tick[data-index="6"].active::after { content: 'BI Systems'; }
+.side-nav-tick[data-index="7"].active::after { content: 'Hire Luis'; }
+
+@media (max-width: 768px) {
+    .side-nav {
+        right: 1rem;
+    }
+    .side-nav-tick {
+        width: 15px;
+    }
+    .side-nav-tick.active {
+        width: 25px;
+    }
+    .bg-experience-text {
+        font-size: 20vw;
+    }
+    .logo {
+        font-size: 0.8rem;
+        max-width: 250px;
     }
 }

@@ -126,7 +126,7 @@ function initApp() {
 
         if (roundedIndex === contactIndex) {
             contactSection.classList.add('visible');
-            uiManager.labelContainer.style.opacity = 0;
+            uiManager.updateLabel("", 0, contactIndex);
             if (mainHeader) mainHeader.style.opacity = 0;
             contactSection.style.pointerEvents = 'auto';
         } else {
@@ -138,7 +138,7 @@ function initApp() {
                 const diff = Math.abs(virtualIndex - roundedIndex);
                 let opacity = 1 - (diff * 2.5);
                 if (opacity < 0) opacity = 0;
-                uiManager.updateLabel(labels[roundedIndex], opacity);
+                uiManager.updateLabel(labels[roundedIndex], opacity, roundedIndex);
             } else {
                 uiManager.updateLabel("", 0);
             }
